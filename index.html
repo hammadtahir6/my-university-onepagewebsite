@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAF-IAST - Institute of Applied Sciences and Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-links">
+                    <a href="#events">Events</a>
+                    <a href="#portals">Portals</a>
+                    <a href="#international">International</a>
+                    <a href="#technology-park">Technology Park</a>
+                    <a href="#tenders">Tenders</a>
+                    <a href="#downloads">Downloads</a>
+                    <a href="#careers">Careers</a>
+                </div>
+                <a href="#admissions" class="apply-btn-top">Apply Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="PAF-IAST Logo" id="logoImg">
+                    <div class="logo-text">
+                        <h1>PAK-AUSTRIA<br>FACHHOCHSCHULE:</h1>
+                        <p>INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY</p>
+                    </div>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#study">Study</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#research">Research Centers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="images/hero1.jpg" alt="Campus Building">
+                <div class="slide-content">
+                    <div class="container">
+                        <h2 class="hero-title">Admissions Open Spring 2026</h2>
+                        <div class="hero-programs">
+                            <span class="program-box">Undergraduate</span>
+                            <span class="ampersand">&</span>
+                            <span class="program-box">Graduate Programs</span>
+                        </div>
+                        <a href="#admissions" class="cta-button">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero2.jpg" alt="Students">
+                <div class="slide-content">
+                    <div class="container">
+                        <h2 class="hero-title">Excellence in Education</h2>
+                        <p class="hero-subtitle">Shaping Future Leaders in Technology and Applied Sciences</p>
+                        <a href="#about" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/hero3.jpg" alt="Research">
+                <div class="slide-content">
+                    <div class="container">
+                        <h2 class="hero-title">World-Class Research</h2>
+                        <p class="hero-subtitle">Innovation Through Research & Development</p>
+                        <a href="#research" class="cta-button">Explore Research</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="slider-arrow prev" id="prevSlide">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-arrow next" id="nextSlide">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="slider-dots" id="sliderDots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About PAF-IAST</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY</h3>
+                    <p>Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology (PAF-IAST) is a public sector degree awarding institute, chartered by the Government of Khyber Pakhtunkhwa and recognized by the Higher Education Commission of Pakistan.</p>
+                    <p>PAF-IAST is committed to promoting equal opportunities and welcoming students from all backgrounds, irrespective of their creed, color, gender, ethnicity, and their social and financial status.</p>
+                    <p>The institute strongly encourages female students to join any program of their choice and realize their dreams through quality education and comprehensive support services.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>2000+</h4>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>150+</h4>
+                            <p>Faculty Members</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>25+</h4>
+                            <p>Programs</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>10+</h4>
+                            <p>Research Centers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="About PAF-IAST">
+                    <div class="image-overlay">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Study Programs Section -->
+    <section id="study" class="study-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Study Programs</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Computer Science & IT</h3>
+                    <p>Bachelor's and Master's programs in Computer Science, Software Engineering, and Information Technology.</p>
+                    <ul>
+                        <li>BS Computer Science</li>
+                        <li>BS Software Engineering</li>
+                        <li>MS Computer Science</li>
+                        <li>MS Software Engineering</li>
+                    </ul>
+                    <a href="#admissions" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Engineering</h3>
+                    <p>Comprehensive engineering programs focusing on innovation and practical application.</p>
+                    <ul>
+                        <li>BS Electrical Engineering</li>
+                        <li>BS Mechanical Engineering</li>
+                        <li>BS Civil Engineering</li>
+                        <li>MS Engineering Management</li>
+                    </ul>
+                    <a href="#admissions" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Applied Sciences</h3>
+                    <p>Advanced programs in applied sciences and research-oriented disciplines.</p>
+                    <ul>
+                        <li>BS Applied Physics</li>
+                        <li>BS Mathematics</li>
+                        <li>BS Biotechnology</li>
+                        <li>MS Applied Sciences</li>
+                    </ul>
+                    <a href="#admissions" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business & Management</h3>
+                    <p>Professional business programs designed for future leaders and entrepreneurs.</p>
+                    <ul>
+                        <li>BBA Business Administration</li>
+                        <li>MBA Master of Business Admin</li>
+                        <li>MS Project Management</li>
+                        <li>MS Finance</li>
+                    </ul>
+                    <a href="#admissions" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="admissions-section">
+        <div class="container">
+            <div class="admissions-content">
+                <div class="admissions-left">
+                    <h2 class="paf-title">PAF IAST</h2>
+                    <h3 class="admissions-title">Admissions</h3>
+                    <div class="services-box">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Admission Assistance</li>
+                            <li><i class="fas fa-check"></i> Scholarship Information</li>
+                            <li><i class="fas fa-check"></i> Comprehensive Campus Services</li>
+                        </ul>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p>Call to find out more</p>
+                                <h4>+92-995-931852-53</h4>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>+92-301-8662251</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="campus-image">
+                        <img src="images/campus.jpg" alt="Campus View">
+                    </div>
+                </div>
+                <div class="admissions-right">
+                    <h3>Admissions</h3>
+                    <p>At PAF IAST, we are committed to promoting equal opportunities and welcoming students from all backgrounds, irrespective of their creed, color, gender, ethnicity, and their social and financial status. Pak Austria Fachhochschule: Institute of Applied Sciences and Technology strongly encourages female students to join any program of their choice and realize their dreams.</p>
+                    <a href="#contact" class="apply-button">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Centers Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research & Innovation</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="research-intro">
+                <p>PAF-IAST is at the forefront of research and innovation, contributing to technological advancement and societal development through world-class research centers.</p>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-train"></i>
+                    </div>
+                    <h3>Center of Excellence in Transportation/Railway Engineering</h3>
+                    <p>Leading research in modern transportation systems and railway engineering technologies.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Sino-Pak Center for Artificial Intelligence</h3>
+                    <p>Advancing AI research through international collaboration and innovation.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Mineral Resource Engineering</h3>
+                    <p>Research focused on sustainable mineral exploration and resource management.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Nano-Technology Center</h3>
+                    <p>Pioneering research in nanotechnology and its applications.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Agriculture Food Technologies</h3>
+                    <p>Innovative research in agricultural technology and food sciences.</p>
+                </div>
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Special Technology Zone</h3>
+                    <p>Fostering innovation and entrepreneurship in technology sectors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section id="campus" class="campus-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Campus Life</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="campus-grid">
+                <div class="campus-card">
+                    <img src="images/campus1.jpg" alt="Green Campus">
+                    <div class="campus-overlay">
+                        <h3>Our Green Campus</h3>
+                        <p>Experience education in a sustainable, eco-friendly environment</p>
+                    </div>
+                </div>
+                <div class="campus-card">
+                    <img src="images/campus2.jpg" alt="Infrastructure">
+                    <div class="campus-overlay">
+                        <h3>Modern Infrastructure</h3>
+                        <p>State-of-the-art facilities and learning spaces</p>
+                    </div>
+                </div>
+                <div class="campus-card">
+                    <img src="images/campus3.jpg" alt="Student Life">
+                    <div class="campus-overlay">
+                        <h3>Vibrant Student Life</h3>
+                        <p>Join clubs, societies, and extracurricular activities</p>
+                    </div>
+                </div>
+                <div class="campus-card">
+                    <img src="images/campus4.jpg" alt="Sports Facilities">
+                    <div class="campus-overlay">
+                        <h3>Sports & Recreation</h3>
+                        <p>World-class sports facilities for holistic development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info-box">
+                    <h3>Get in Touch</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology<br>
+                            Khanpur Road, Mang Haripur<br>
+                            Khyber Pakhtunkhwa, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>0995-111 723 278</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-fax"></i>
+                        <div>
+                            <h4>Fax</h4>
+                            <p>+92-995-645117</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@paf-iast.edu.pk</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-box">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject *" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message *" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="PAF-IAST Logo">
+                            <div class="footer-logo-text">
+                                <h3>Pak-Austria Fachhochschule:</h3>
+                                <p>Institute of Applied Sciences and Technology, Khanpur Road, Mang Haripur, Khyber Pakhtunkhwa</p>
+                            </div>
+                        </div>
+                        <div class="footer-contact">
+                            <p><strong>Contact:</strong> 0995-111 723 278</p>
+                            <p><strong>Fax:</strong> +92-995-645117</p>
+                            <p><strong>Email:</strong> info@paf-iast.edu.pk</p>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Campus</h4>
+                        <ul>
+                            <li><a href="#campus">Our Green Campus</a></li>
+                            <li><a href="#about">History</a></li>
+                            <li><a href="#about">Vision</a></li>
+                            <li><a href="#campus">Infrastructure</a></li>
+                            <li><a href="#campus">Video Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#study">Departments</a></li>
+                            <li><a href="#international">International Outreach Office</a></li>
+                            <li><a href="#about">People</a></li>
+                            <li><a href="#campus">Central Library</a></li>
+                            <li><a href="#downloads">Downloads</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Research & Innovation</h4>
+                        <ul>
+                            <li><a href="#research">Center of Excellence in Transportation/Railway Engineering</a></li>
+                            <li><a href="#research">Sino-Pak Center for Artificial Intelligence</a></li>
+                            <li><a href="#research">Mineral Resource Engineering</a></li>
+                            <li><a href="#research">Nano-Technology Center</a></li>
+                            <li><a href="#research">Agriculture Food Technologies</a></li>
+                            <li><a href="#research">Special Technology Zone</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>Copyright © 2026 All Rights Reserved.</p>
+                    <p class="last-updated">Last Updated: <span id="lastUpdated">16/February/2026</span></p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
